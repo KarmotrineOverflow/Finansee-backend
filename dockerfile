@@ -1,0 +1,13 @@
+FROM node:12-alpine
+
+WORKDIR /app
+
+COPY . .
+
+RUN "npm i"
+
+ENV PORT=8080 DB_HOST=db DB_PASSWORD=MYSQL_ROOT_PASSWORD DB_NAME=MYSQL_DATABASE
+
+EXPOSE 8080
+
+CMD ["node", "server.ts"]

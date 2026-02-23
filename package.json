@@ -1,0 +1,26 @@
+{
+  "name": "finansee-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KarmotrineOverflow/Finansee-backend#readme",
+  "bugs": {
+    "url": "https://github.com/KarmotrineOverflow/Finansee-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarmotrineOverflow/Finansee-backend.git"
+  },
+  "license": "ISC",
+  "author": "KarmotrineOverflow",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
