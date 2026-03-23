@@ -19,8 +19,7 @@ export function getDate(
     const date = new Date()
 
     switch (format) {
-
-        // TODO: RECENT! I forgot how to convert Date obj to string. RESEARCH AND FINISH THIS FUNCTION
+        
         case "DD-MM-YYYY":
             return `${date.getDate()}-${date.getMonth}-${date.getFullYear}`
         case "DD/MM/YYYY":
